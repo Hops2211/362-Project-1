@@ -9,12 +9,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* base styles */
  
-/* minor third http://www.modularscale.com/?18&px&1.2&web&text */
+/* minor third scale */
+
+/* http://www.modularscale.com/?18&px&1.2&web&text */
+
+/* ===== BASE STYLES ===== */
 
 html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
-  color: #2FE;
-  background-color: #222;
+  color: #0359AE;
+  background-color: #DAE5F0;
   padding: 0;
+}
+
+h1{
+  font-size: 1.944em; /* 31.104px */
+  line-height: 1.222em;
+}
+
+h2{
+  font-size: 1.62em; /* 44.79px */
+  line-height: 1.222em;
 }
