@@ -3,14 +3,18 @@ jQuery(function($)  {
    
     $('#information').toggle('visible');
     $('#information2').toggle('visible');
-      
+    
+    /* makes the form visible and removes the sign up button once pressed*/
     $('#sign-up').on('submit', function() {
       $('#information').toggle('visible');
       $('#sign-up').empty();
           
       }) 
+    
+    /* makes the second form visible and removes the second sign up button once pressed*/
     $('#sign-up2').on('submit', function() {
       $('#information2').toggle('visible');
+      $('#sign-up2').empty();
    
 /*    $('#information').removeClass('active');
     $('#sign-up').on('submit', function(e) {
@@ -25,6 +29,7 @@ jQuery(function($)  {
 */  
    })
    
+   /*Take the information entered to display a message */
    $('#information').on('submit', function(e) {
      e.preventDefault();
      var first = $('#fname').val();
