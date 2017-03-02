@@ -30,7 +30,7 @@
       We welcome everyone from all backgrounds, and of all talents. If you have an interest in serving our ministry and
       an interest in raising up our children to walk in God's footsteps then we have an interest in you.
       </p>
-      <p> 
+      <p id="catch"> 
           Interested in volunteering? Click sign up and fill out the form below. 
       </p>
       <form id="sign-up" name="sign-up" method="get" action="#null">
@@ -62,13 +62,17 @@
           <p>
             Which age group would you prefer to serve with?
           </p>
-            <label for="ec">Early Childhood (birth to 2)</label>
-            <input type="checkbox"  class="checkbox" name="ages[]" id="ec" value="ec" />
-            <label for="prek">Preschool (3 to 5)</label>
-            <input type="checkbox" class="checkbox" name="ages[]" id="prek" value="prek" />
-            <label for="elementary">Elementary (K to 5th)</label>
-            <input type="checkbox"  class="checkbox" name="ages[]" id="elementary" value="elementary"/>
+          <ol>
+          <li id="cboxalignment">
+            <label for="ec">Early Childhood (birth to 2) <input type="checkbox"  class="checkbox" name="ages[]" id="ec" value="ec" /></label>
           </li>
+          </li id="cboxalignment">
+            <label for="prek">Preschool (3 to 5)<input type="checkbox" class="checkbox" name="ages[]" id="prek" value="prek" /></label>
+          </li>  
+          <li id="cboxalignment">
+          <label for="elementary">Elementary (K to 5th)          <input type="checkbox"  class="checkbox" name="ages[]" id="elementary" value="elementary"/></label>
+          </li>
+          </ol>
           <li id="submit">
             <input type="submit" name="submit" id="submit" value="Submit" />
           </li>
