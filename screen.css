@@ -43,3 +43,27 @@ input {
   line-height: inherit;
   padding: 0.778em; /*14px @ 18px */
 }
+
+header {
+  background: transparent url("/img/volunteer2.jpg") no-repeat;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; 
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+ }
+#banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding-bottom: 1.222em;
+  height: 100px;
+  z-index: -1;
+}
+*/
