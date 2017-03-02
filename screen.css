@@ -203,7 +203,7 @@ h2{
   line-height: 1.222em;
 }
 
- #ages li {
+#ages li {
  list-style-position: inside;
  list-style-type: disc;
 }
@@ -249,6 +249,21 @@ header {
 }
 
 
+  
+label[for="ec"],
+label[for="prek"],
+label[for="elementary"]  {
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+input[type="checkbox"] {
+  width: 0.56em;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
 /* ===== STATE STYLES ===== */
 
 /* 556 @ 16px 34.75em */
@@ -258,16 +273,18 @@ header {
     line-height: 1.20em; /* 1 gridline = 120% */
   }
   
+  label,
   input {
   box-sizing: border-box; 
   width: 50%; 
-  display: block;
+  display: in-block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   padding: 0.778em; /*14px @ 18px */
   position: center;
   }
+  
 }
 
 /* 852 @ 16px 53.25em */
