@@ -33,6 +33,11 @@ h2{
   line-height: 1.222em;
 }
 
+ #ages li {
+ list-style-position: inside;
+ list-style-type: disc;
+}
+
 label,
 input {
   box-sizing: border-box; 
