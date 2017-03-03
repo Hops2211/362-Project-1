@@ -17,9 +17,9 @@ jQuery(function($)  {
    $('#information').on('submit', function(e) {
      e.preventDefault()
      if($('#email').val()==""||$('#fname').val()==""||$('#lname').val()==""){
+       $('#confirmation').empty();
        $('#confirmation').append('you did not fill out one of the fields');
         return false;
-  //      $('#confirmation').empty();
      }
      else{
        $('#information').on('submit', function(e) {
