@@ -191,14 +191,14 @@ html {
   color: #000;
   background-color: #A0EBED;
   padding: 1.222em 0.75em;
-  background-image: url('/img/background2.jpg');
+  background-image: url('../img/background2.jpg');
   background-size: cover;
   }
 
 h1{
   font-size: 1.944em; /* 31.104px */
-  line-height: 1.222em; /* 53.748px */
-  font-weight: bold;
+  line-height: 1.20em; /* 53.748px */
+ /* font-weight: bold; */
 }
 
 h2{
@@ -223,11 +223,12 @@ input {
 }
 
 
-#age_list
+a #age_list
 {
   padding-top: 1.222em;
   padding-bottom: 0.611em;
 }
+
 #catch
 {
   padding-top: 1.222em;
