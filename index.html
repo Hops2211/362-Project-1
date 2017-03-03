@@ -9,7 +9,6 @@
 <body>
   <header class="h-card" id="header">
     <h1 class="p-name">Park Community Church Children's Ministry</h1>
-    <img  id="banner"src="/img/volunteer2.jpg" alt="volunteer image"/>
   </header>
   <section class="volunteer">
     <h2>Volunteer Ministry</h2>
@@ -26,11 +25,11 @@
           <li>Purple Line - Ages: 5 years - 7 years</li>
           <li>Red Line - Ages: 7 years - 10 years</li>
         </ol>
-      <p>
+      <p id="catch">
       We welcome everyone from all backgrounds, and of all talents. If you have an interest in serving our ministry and
       an interest in raising up our children to walk in God's footsteps then we have an interest in you.
       </p>
-      <p id="catch"> 
+      <p id="catch2"> 
           Interested in volunteering? Click sign up and fill out the form below. 
       </p>
       <form id="sign-up" name="sign-up" method="get" action="#null">
@@ -44,7 +43,7 @@
             <input type="text" name="fname" id="fname"/>
           </li>
           <li id="lname-input">
-            <label for="lname">Lastname</label>
+            <label for="lname">Last Name</label>
             <input type="text" name="lname" id="lname" />
           </li>
           <li id="email-input">
@@ -59,7 +58,7 @@
             <label for="email">Birth Date</label>
             <input type="date" name="dob" id="dob" />
           </li>
-          <p>
+          <p id="age_list">
             Which age group would you prefer to serve with?
           </p>
           <ol>
@@ -67,7 +66,7 @@
             <label for="ec">Early Childhood (birth to 2) <input type="checkbox"  class="checkbox" name="ages[]" id="ec" value="ec" /></label>
           </li>
           </li id="cboxalignment">
-            <label for="prek">Preschool (3 to 5)<input type="checkbox" class="checkbox" name="ages[]" id="prek" value="prek" /></label>
+            <label for="prek">Preschool (3 to 5) <input type="checkbox" class="checkbox" name="ages[]" id="prek" value="prek" /></label>
           </li>  
           <li id="cboxalignment">
           <label for="elementary">Elementary (K to 5th)          <input type="checkbox"  class="checkbox" name="ages[]" id="elementary" value="elementary"/></label>
@@ -83,82 +82,6 @@
       </a>
     
   </section>
-   
-  <section class="child-care">
-    <h2>Child Care</h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere dui eget sapien faucibus, 
-      nec dignissim eros tempus. Vivamus sed faucibus nisl. Nunc sagittis justo non ipsum lobortis efficitur. 
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean 
-      aliquam elementum bibendum. Fusce vel vulputate libero. Nunc ac eleifend risus, eu pellentesque tortor. 
-      Vestibulum mattis augue sit amet est hendrerit, at pellentesque nisl venenatis.
-      </p>
-      <p> 
-        Interested in child care during service? Click sign up and fill out the form below.
-      </p>
-      <form id="sign-up2" name="sign-up2" method="get" action="#null">
-          <input type="submit" id="sign-up-submit" name="sign-up-submit" value="Sign Up" />
-      </form>
-      
-      <form id="information2" name="information2" method="get" action="#null">
-    
-        <ol>
-          <li id="fname-input">
-            <label for="fname2">First Name</label>
-            <input type="text" name="fname2" id="fname2"/>
-          </li>
-          <li id="lname-input">
-            <label for="lname2">Last Name</label>
-            <input type="text" name="lname2" id="lname2" />
-          </li>
-          <li id="cfname-input">
-            <label for="cfname2">Child's First Name</label>
-            <input type="text" name="cfname2" id="cfname2"/>
-          </li>
-          <li id="clname-input">
-            <label for="clname2">Child's Lastname</label>
-            <input type="text" name="clname2" id="clname2" />
-          </li>
-          <li id="allergy-input">
-            <p>
-              Gender
-            </p>
-            <label for="mgender">Male</label>
-            <input type="checkbox" name="mgender" id="mgender" />
-            <label for="fgender">Female</label>
-            <input type="checkbox" name="fgender" id="fgender" />
-          </li>
-          <li id="email-input">
-            <label for="email">Email</label>
-            <input type="email" name="email2" id="email2" placeholder="you@example.com" pattern="^.+@.+$" />
-          </li>
-          <li id="phone-input">
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone" placeholder="734-777-8888" pattern="\d{3}[\-]\d{3}[\-]\d{4}"/>
-          </li>
-          <li id="dob-input">
-            <label for="email">Birth Date</label>
-            <input type="date" name="dob" id="dob" />
-          </li>
-          <li id="allergy-input">
-            <p>
-              Does your child have any allergies?
-            </p>
-            <label for="yallergies">Yes</label>
-            <input type="checkbox" name="yallergies" id="yallegies" />
-            <label for="nallergies">No</label>
-            <input type="checkbox" name="nallergies" id="nallegies" />
-          </li>
-          <li id="submit">
-            <input type="submit" name="submit" id="submit" value="Submit" />
-          </li>
-        </ol>
-      </form>
-      <a id="confirmation2">     
-      </a>
-  
-  </section>
-  
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="site.js"></script>
