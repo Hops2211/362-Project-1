@@ -12,23 +12,6 @@ jQuery(function($)  {
           
       }) 
     
-    /* makes the second form visible and removes the second sign up button once pressed*/
-    $('#sign-up2').on('submit', function() {
-      $('#information2').toggle('visible');
-      $('#sign-up2').empty();
-   
-/*    $('#information').removeClass('active');
-    $('#sign-up').on('submit', function(e) {
-     $('#stuff').append(
-     'This has been clicked'
-     );
-     
-   $('#sign-up').on('click', function() {
-      $('#information').addClass('active');
-      
-      
-*/  
-   })
    
    $('#information').on('submit', function(e) {
      e.preventDefault()
@@ -45,6 +28,7 @@ jQuery(function($)  {
      var email = $('#email').val();
      $('#information').empty();
      $('#confirmation').empty();
+     $('#catch2').empty();
      $('#confirmation').append(
         'Thank you ' + first + ' ' + last + '.\n'
         + 'The form was completed successfully. A confirmation email has been sent to ' +email
