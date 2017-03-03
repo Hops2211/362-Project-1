@@ -189,7 +189,7 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
   color: #000;
-  background-color: #297FD0;
+  background-color: #A0EBED
   padding: 1.222em 0.75em;
   background-image: url('/img/background2.jpg');
   background-size: cover;
@@ -315,6 +315,12 @@ h1{
     line-height: 1.20em; /* 1 gridline = 120% */
     
   }
+  
+  .email label:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
   label,
 input {
   box-sizing: border-box; 
