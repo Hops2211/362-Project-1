@@ -33,18 +33,18 @@
           Interested in volunteering? Click sign up and fill out the form below. 
       </p>
       <form id="sign-up" name="sign-up" method="get" action="#null">
-        <input type="submit" id="sign-up-submit" name="sign-up-submit" value="Sign Up" />
+        <input type="submit" id="sign-up-submit" name="sign-up-submit" value="Volunteer" />
       </form>
       
       <form id="information" name="information" method="get" action="#null">
         <ol>
           <li id="fname-input">
             <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname"/>
+            <input type="text" name="fname" id="fname" pattern='[A-Za-z\\s]*'/>
           </li>
           <li id="lname-input">
             <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" />
+            <input type="text" name="lname" id="lname" pattern='[A-Za-z\\s]*' />
           </li>
           <li id="email-input">
             <label for="email">Email</label>
@@ -69,7 +69,7 @@
             <label for="prek">Preschool (3 to 5) <input type="checkbox" class="checkbox" name="ages[]" id="prek" value="prek" /></label>
           </li>  
           <li id="cboxalignment">
-          <label for="elementary">Elementary (K to 5th)          <input type="checkbox"  class="checkbox" name="ages[]" id="elementary" value="elementary"/></label>
+          <label for="elementary">Elementary (K to 5th) <input type="checkbox"  class="checkbox" name="ages[]" id="elementary" value="elementary"/></label>
           </li>
           </ol>
           <li id="submit">
