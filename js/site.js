@@ -8,6 +8,7 @@ jQuery(function($)  {
     $('#sign-up').on('submit', function() {
       $('#information').toggle('visible');
       $('#catch').empty();
+      $('#catch2').empty();
       $('#sign-up').empty();
           
       }) 
