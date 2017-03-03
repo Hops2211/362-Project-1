@@ -189,7 +189,7 @@ html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
   color: #000;
-  background-color: #A0EBED
+  background-color: #A0EBED;
   padding: 1.222em 0.75em;
   background-image: url('/img/background2.jpg');
   background-size: cover;
@@ -307,7 +307,7 @@ h1{
     line-height: 1.20em; /* 1 gridline = 120% */
   }
 
-
+}
 /* 836 @ 16px 52.5em */
 @media screen and (min-width: 52.5em) {
   h1{
@@ -316,21 +316,21 @@ h1{
     
   }
   
-  .email label:after {
-    color: #e32;
-    content: ' *';
-    display:inline;
-}
+    .email label:after {
+      color: #e32;
+      content: ' *';
+      display:inline;
+  }
   label,
-input {
-  box-sizing: border-box; 
-  width: 50%; 
-  display: block;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  padding: 0.778em; /*14px @ 18px */
-}
+  input {
+    box-sizing: border-box; 
+    width: 50%; 
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0.778em; /*14px @ 18px */
+  }
 }
 /* 1000 @ 16px 53.25em */
 @media screen and (min-width: 62.5em) {
