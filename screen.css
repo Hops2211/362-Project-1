@@ -188,14 +188,17 @@ textarea {
 html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px */
-  color: #0359AE;
-  background-color: #DAE5F0;
+  color: #000;
+  background-color: #297FD0;
   padding: 1.222em 0.75em;
-}
+  background-image: url('/img/background2.jpg');
+  background-size: cover;
+  }
 
 h1{
   font-size: 1.944em; /* 31.104px */
   line-height: 1.222em; /* 53.748px */
+  font-weight: bold;
 }
 
 h2{
@@ -219,6 +222,12 @@ input {
   padding: 0.778em; /*14px @ 18px */
 }
 
+
+#age_list
+{
+  padding-top: 1.222em;
+  padding-bottom: 0.611em;
+}
 #catch
 {
   padding-top: 1.222em;
@@ -231,7 +240,7 @@ input {
 p{
   padding-bottom: 1.222em;
 }
-
+/*
 header {
   background: transparent url("/img/volunteer2.jpg") no-repeat;
   -webkit-background-size: 100%; 
@@ -255,7 +264,7 @@ header {
   height: 100px;
   z-index: -1;
 }
-
+*/
 
   
 label[for="ec"],
