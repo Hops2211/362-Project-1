@@ -186,13 +186,13 @@ textarea {
 /* ===== BASE STYLES ===== */
 
 html {
-  font-size: 1.125em; /* 18px */
-  line-height: 1.222em; /* 22px */
-  color: #000;
   background-color: #A0EBED;
-  padding: 1.222em 0.75em;
   background-image: url('../img/background2.jpg');
   background-size: cover;
+  color: #000;
+  font-size: 1.125em; /* 18px */
+  line-height: 1.222em; /* 22px */
+  padding: 1.222em 0.75em;
   }
 
 h1{
@@ -213,72 +213,43 @@ h2{
 
 label,
 input {
-  box-sizing: border-box; 
-  width: 100%; 
+  box-sizing: border-box;  
   display: block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   padding: 0.778em; /*14px @ 18px */
+  width: 100%;
 }
 
 
-a #age_list
-{
-  padding-top: 1.222em;
+a #age_list {
   padding-bottom: 0.611em;
+  padding-top: 1.222em;
 }
 
-#catch
-{
+#catch {
   padding-top: 1.222em;
 }
 
 #confirmation {
-  padding-top: 1.222em;
   padding-bottom:1.222em;
+  padding-top: 1.222em;
 }
 p{
   padding-bottom: 1.222em;
 }
-/*
-header {
-  background: transparent url("/img/volunteer2.jpg") no-repeat;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover; 
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: left;
-  padding-bottom: 1.222em;
- }
-#banner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  padding-bottom: 1.222em;
-  height: 100px;
-  z-index: -1;
-}
-*/
-
-  
-label[for="ec"],
-label[for="prek"],
-label[for="elementary"]  {
-  padding-left: 15px;
-  text-indent: -15px;
-}
 
 input[type="checkbox"] {
-  width: 0.56em;
-  overflow: hidden;
   display: inline-block;
+  overflow: hidden;
+  width: 0.56em;
+}
+
+  .email label:after {
+      color: #e32;
+      content: ' *';
+      display:inline;
 }
 
 
@@ -290,13 +261,13 @@ input[type="checkbox"] {
   
 #submit {
   box-sizing: border-box; 
-  width: 70%; 
   display: block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  padding: 0.778em; /*14px @ 18px */
   margin-left: 0;
+  padding: 0.778em; /*14px @ 18px */
+  width: 70%; 
 }
   
   
@@ -317,20 +288,15 @@ h1{
     
   }
   
-    .email label:after {
-      color: #e32;
-      content: ' *';
-      display:inline;
-  }
   label,
   input {
     box-sizing: border-box; 
-    width: 50%; 
     display: block;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     padding: 0.778em; /*14px @ 18px */
+    width: 50%; 
   }
 }
 /* 1000 @ 16px 53.25em */
