@@ -7,6 +7,7 @@ jQuery(function($)  {
     /* makes the form visible and removes the sign up button once pressed*/
     $('#sign-up').on('submit', function() {
       $('#information').toggle('visible');
+      $('#catch').empty();
       $('#sign-up').empty();
           
       }) 
@@ -29,8 +30,34 @@ jQuery(function($)  {
 */  
    })
    
-   /*Takes the information entered to display a message */
    $('#information').on('submit', function(e) {
+     e.preventDefault()
+     if($('#email').val()==""||$('#fname').val()==""||$('#lname').val()==""){
+       $('#confirmation').append('you did not fill out one of the fields');
+        return false;
+  //      $('#confirmation').empty();
+     }
+     else{
+       $('#information').on('submit', function(e) {
+     e.preventDefault();
+     var first = $('#fname').val();
+     var last = $('#lname').val();
+     var email = $('#email').val();
+     $('#information').empty();
+     $('#confirmation').empty();
+     $('#confirmation').append(
+        'Thank you ' + first + ' ' + last + '.\n'
+        + 'The form was completed successfully. A confirmation email has been sent to ' +email
+       );
+       })
+     }
+   })
+   
+   $('#confirmation').empty();
+ 
+   
+   /*Takes the information entered to display a message */
+ /*  $('#information').on('submit', function(e) {
      e.preventDefault();
      var first = $('#fname').val();
      var last = $('#lname').val();
@@ -42,7 +69,7 @@ jQuery(function($)  {
       );
      
    })
-   
+ */  
    $('#information2').on('submit', function(e) {
      e.preventDefault();
      var first = $('#fname2').val();
