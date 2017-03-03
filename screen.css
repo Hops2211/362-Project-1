@@ -195,7 +195,7 @@ html {
 
 h1{
   font-size: 1.944em; /* 31.104px */
-  line-height: 1.222em;
+  line-height: 1.222em; /* 53.748px */
 }
 
 h2{
@@ -219,9 +219,17 @@ input {
   padding: 0.778em; /*14px @ 18px */
 }
 
+#catch
+{
+  padding-top: 1.222em;
+}
+
+#confirmation {
+  padding-top: 1.222em;
+  padding-bottom:1.222em;
+}
 p{
   padding-bottom: 1.222em;
-  padding-top: 1.222em;
 }
 
 header {
@@ -268,33 +276,47 @@ input[type="checkbox"] {
 
 /* 556 @ 16px 34.75em */
 @media screen and (min-width: 34.75em) {
-  h1{
-    font-size:2.073em; /*37.325 @ 18px*/
-    line-height: 1.20em; /* 1 gridline = 120% */
-  }
   
-  label,
-  input {
+  
+#submit {
   box-sizing: border-box; 
-  width: 50%; 
-  display: in-block;
+  width: 70%; 
+  display: block;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   padding: 0.778em; /*14px @ 18px */
-  position: center;
-  }
+  margin-left: 0;
+}
+  
   
 }
+/* 702 @ 16px 43.875em */
+@media screen and (min-width: 43.875em) {
+h1{
+    font-size:2.073em; /*37.325 @ 18px*/
+    line-height: 1.20em; /* 1 gridline = 120% */
+  }
 
-/* 852 @ 16px 53.25em */
-@media screen and (min-width: 53.25em) {
+
+/* 836 @ 16px 52.5em */
+@media screen and (min-width: 52.5em) {
   h1{
     font-size:2.489em; /*44.79 @ 18px*/
     line-height: 1.20em; /* 1 gridline = 120% */
+    
   }
-  
-
+  label,
+input {
+  box-sizing: border-box; 
+  width: 50%; 
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0.778em; /*14px @ 18px */
+}
+}
 /* 1000 @ 16px 53.25em */
 @media screen and (min-width: 62.5em) {
   h1{
