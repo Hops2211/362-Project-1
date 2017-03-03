@@ -223,7 +223,7 @@ input {
 }
 
 
-a #age_list {
+a #age-list {
   padding-bottom: 0.611em;
   padding-top: 1.222em;
 }
@@ -248,7 +248,7 @@ input[type="checkbox"] {
 
   .email label:after {
       color: #e32;
-      content: ' *';
+      content: "*";
       display:inline;
 }
 
